@@ -56,6 +56,9 @@ function workbar(fractiondone, message, progtitle)
 
 persistent progfig progpatch starttime lastupdate text 
 
+warning('off', 'MATLAB:hg:EraseModeIgnored');
+warning('off', 'MATLAB:hg:WillBeRemovedReplaceWith');
+
 % Set defaults for variables not passed in
 if nargin < 1,
     fractiondone = 0;
@@ -231,6 +234,9 @@ drawnow
 
 % Record time of this update
 lastupdate = clock;
+
+warning('on', 'MATLAB:hg:EraseModeIgnored');
+warning('on', 'MATLAB:hg:WillBeRemovedReplaceWith');
 
 
 

@@ -60,9 +60,6 @@ Gui.mode = str;
     set(Gui.handles.right.slider2_edit, 'Visible','off');
     set(Gui.handles.right.slider2_apply, 'Visible','off');
     set(Gui.handles.right.erase, 'Visible','off');
-    set(Gui.handles.right.editbox1, 'Visible','off');
-    set(Gui.handles.right.editbox2, 'Visible','off');
-    set(Gui.handles.right.editbox_label, 'Visible','off');
 
     
     set(Gui.handles.middle.chbslider, 'Visible','off');
@@ -96,9 +93,7 @@ Gui.mode = str;
     set(Gui.handles.right.slider2_edit, 'Visible','off');
     set(Gui.handles.right.slider2_apply, 'Visible','off');
     set(Gui.handles.right.erase, 'Visible','off');
-    set(Gui.handles.right.editbox1, 'Visible','off');
-    set(Gui.handles.right.editbox2, 'Visible','off');
-    set(Gui.handles.right.editbox_label, 'Visible','off');
+
     
     set(Gui.handles.middle.chbslider, 'Visible','on');
     set(Gui.handles.middle.chbthreshold, 'Visible','on');

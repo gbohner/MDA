@@ -18,7 +18,7 @@ global Gui;
 %  Initialization tasks
 scrsz = get(0,'ScreenSize');
 scale = Gui.general.scale; 
-h_figure = figure('MenuBar','none','Toolbar','none','Visible','on','Name','Microtubule Dynamics Analysis',...
+h_figure = figure('MenuBar','none','Toolbar','none','Visible','on','Name','Microtubule Dynamics Analyzer',...
    'Position',[scrsz(3)/2-round(600*scale) scrsz(4)-round(730*scale)-50 round(1200*scale), round(730*scale)], 'CloseRequestFcn', @mda_close_callback,'Color',Gui.general.panelbackground);
 
 
