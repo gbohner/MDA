@@ -30,6 +30,7 @@ h_tpanel = uipanel('Parent', h_figure, 'Units', 'pixels', 'Position', [0 550 120
  
 % Creating sub_panels divisions
 create_panel_track(h_tpanel, [200 0 500 175]*scale, scale);
+create_panel_analyse(h_tpanel, [700 0 500 175]*scale, scale);
 create_panel_info(h_tpanel, [0 0 200 175]*scale, scale);
 
 create_panel_leftaxes(h_figure, [200 0 500 550]*scale, scale);

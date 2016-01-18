@@ -143,7 +143,7 @@ Gui.mode = str;
     
     %TODO Need some plus checkboxes or radio buttons on the right
     set(Gui.handles.right.popup, 'Visible','on');
-      argcell = {'Auto','Average MT', 'Average GFP','Average Chn 3', 'MT axial linescan', 'MT lateral linescan', ...
+      argcell = {'Auto','Average MT', 'Average GFP', 'MT axial linescan', 'MT lateral linescan', ...
         'GFP axial linescan', 'GFP lateral linescan', 'MT-GFP axial linescan', 'MT-GFP lateral linescan'};
       set(Gui.handles.right.popup,'String',argcell);
     set(Gui.handles.right.axes, 'Visible','on');
